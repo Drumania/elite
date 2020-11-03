@@ -1,0 +1,215 @@
+    @media only screen and (max-width: 1300px) {
+        .sec-1 .misc-star {
+            margin-top: 40px;
+        }
+        .sec-1 h1 {
+            font-size: 150px;
+            margin: 50px 0 30px;
+        }
+        .sec-1 p {
+            margin-left: 4px;
+        }
+        .sec-1 .swiper-pagination-fix {
+            margin-top: -117vh;
+            padding-left: 31px;
+        }
+        .sec-1 .swipe-left {
+            top: 31px;
+        }
+        .sec-1 .swipe-right {
+            top: 10px;
+        }
+        .sec-1 .swiper-home .swiper-slide img {
+            top: -100vh;
+        }
+        .sec-5 .swiper-slide img {
+            height: 60%;
+            position: absolute;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        body {
+            width: 375px;
+            overflow-x: hidden;
+        }
+        .wrap-site {
+            overflow-x: hidden;
+        }
+        .degra-stripe {
+            display: none;
+        }
+        .logo {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            z-index: 3000;
+        }
+        .menu {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            z-index: 3000;
+        }
+        .menu-open {
+            width: 100%;
+            right: -100%;
+            z-index: 2000;
+        }
+        .menu-open .mo-nav {
+            font-size: 30px;
+            line-height: 7vh;
+        }
+        .legend,
+        .scroll-down,
+        .pager {
+            display: none;
+        }
+        .full-wrap .sec-1,
+        .full-wrap .sec-2,
+        .full-wrap .sec-3,
+        .full-wrap .sec-4,
+        .full-wrap .sec-5 {
+            height: 100%;
+            width: 100%;
+        }
+        .full-wrap {
+            position: relative;
+            margin-top: calc( 338px - 380px - 18px);
+        }
+        .degra-stripe {
+            top: -12284px;
+        }
+        /**************************************/
+        /*              SECTIONS              */
+        /**************************************/
+        .sec-1 .misc-star {
+            display: none;
+        }
+        .sec-1 h1 {
+            color: var(--gold-color);
+            font-size: 70px;
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 50px;
+            margin: 140px 0 0;
+            margin-left: 0px;
+            width: 100%;
+            margin-left: -12px;
+            letter-spacing: -3px;
+        }
+        .sec-1 p {
+            display: none;
+        }
+        .swiper-slide {
+            width: 100% !important;
+            margin-right: 20px;
+        }
+        .sec-1 .swiper-home .swiper-slide img {
+            position: relative;
+            top: -29vh;
+            right: 10%;
+            height: 70vh;
+            margin-bottom: 40px;
+        }
+        .sec-1 .swiper-pagination-fix {
+            display: none;
+        }
+        /**************************************/
+        .sec-2 {
+            background: var(--brown-color);
+        }
+        .sec-2 img {
+            display: none;
+        }
+        .sec-2 h3 {
+            font-weight: 800;
+            margin-left: -40px !important;
+            margin: 20px 0 50px;
+            margin-left: 0px;
+            text-transform: uppercase;
+            font-size: 27px;
+            letter-spacing: 0px;
+            line-height: 24px;
+        }
+        .sec-2 p {
+            font-size: 1rem;
+        }
+        /**************************************/
+        .sec-3 {
+            background: var(--brown-color);
+            padding-bottom: 100px;
+            margin-bottom: unset;
+        }
+        .sec-3 h3 {
+            font-size: 28px;
+        }
+        .sec-3 p {
+            font-size: 1rem;
+        }
+        /**************************************/
+        .sec-4 {
+            background: transparent url('../img/diag-mobile.jpg') no-repeat center top;
+            min-height: 510px;
+        }
+        .sec-4 img.separa {
+            margin: -18px -16px 0px;
+            display: block;
+            z-index: 100;
+            position: relative;
+            width: 120%;
+            padding: 50px 0 70px;
+        }
+        .sec-4 .marquesina {
+            top: -80px;
+        }
+        /**************************************/
+        .sec-5 .swiper-container {
+            margin-top: 120px;
+        }
+        .sec-5 .swiper-slide img {
+            position: unset;
+            height: 500px;
+        }
+        .sec-5 .swiper-slide div.slide-wrap {
+            top: -40px;
+        }
+        .sec-5 .swiper-pagination {
+            bottom: -6px !important;
+        }
+        /**************************************/
+        .sec-6 {
+            margin: 0;
+        }
+        .sec-6 p {
+            font-size: 20px;
+            font-weight: 300;
+            color: #878380;
+            margin-bottom: unset;
+        }
+        .sec-6 .swiper-slide {
+            margin-right: unset;
+        }
+        /**************************************/
+        .sec-7 {
+            margin: 200px 0;
+        }
+        .sec-7 h3 {
+            font-size: 22px;
+        }
+        .sec-7 .news-block .news-excerpt {
+            margin-bottom: 30px;
+        }
+        .sec-7 .news-block {
+            margin-bottom: 80px;
+        }
+        /**************************************/
+        .sec-8 {
+            margin: 200px 0;
+        }
+        .sec-8 h3 {
+            font-size: 22px;
+        }
+    }
